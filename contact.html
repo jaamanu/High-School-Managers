@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <header>
+            <nav class="socialnav">
+                <div class="social1">
+                    <a href="" class="sot">Signout</a>
+                    <a href="" class="mpg">MyPage</a>
+                    <a href="" class="twt">twitter</a>
+                    <a href="" class="fbk">facebook</a>   
+                </div>  
+            </nav>
+        <nav class="navcontainer">
+            <h2 class="logo">
+                 <a href="index.html">SCHOOL-MANAGERS</a>
+            </h2>
+                <nav class="second-nav">
+                    <ul class="menuItems">
+                        <li class="menu"><a href="index.html">Home</a></li>
+                        <li class="menu"><a href="about.html">About</a></li>
+                        <li class="menu"><a href="#">Programs</a></li>
+                        <li class="menu"><a href="#">Books</a></li>
+                        <li class="menu"><a href="contact.html">Contact</a></li>
+                        <li class="menu"><a href="#">Account</a></li>   
+                    </ul>
+                </nav>
+            <div class="hamburger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </div>
+        </nav>
+        </header>
+    <main class="contactsection-main">
+            <section class="contactsection1">
+                <div class="contact1"></div>
+                    <h2 class="contact-title">We help you and your School Managers work less and produce more effectively!</h2>
+     
+                    <p class="contact-paragraph">Successful School Management is not all about greatness. It's about systems available and
+                        consistency.<br>
+                        Consistent hard work gains success. Greatness will come!
+                    </p>
+                </div>
+            
+             <div class="version1">
+
+                <div class="contact-info">
+                    <div class="contact-l">
+                        <img src="./images1/contactform.jpeg" alt="">
+                    </div>
+
+                    <div class="contact-r">
+                        <form action="https://formspree.io/f/xqkjaeqz" method="post" class="contactme" id="contactme">
+                            <h2>Open accounts with us today</h2> 
+                            <div class="contact-validation">
+                                <input onkeyup="nameFun()" type="text" class="contact-person version1-input" id="contact-person" placeholder="type your name">
+                                <p class="contact-person-error contErr"></p>
+                            </div>
+                            <div class="contact-validation">
+                                <input onkeyup="emailFun()" type="text" class="contact-address version1-input" id="contact-address" placeholder="type your email">
+                                <p class="contact-address-error contError"></p>
+                            </div>
+                            <div class="contact-validation">
+                                <textarea onkeyup="textareaFun()" name="textarea" id="contact-message" cols="30" rows="10" class="contact-message"></textarea>
+                                <p class="contact-message-error contError"></p>
+                            </div>
+                            <div class="contact-validation">
+                                <input onclick="return submitFun()" type="submit" class="contact-submit version1-submit" value="Submit">
+                                <p class="contact-submit-error contError"></p>
+                            </div>
+    
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+
+<footer class="footer1">
+    <h2>Affiliations</h2>
+    <hr class="hline1">
+<div>
+    <h3 class="transparent">DBE</h3>
+    <h3 class="darker"> WCED</h3>
+    <h3 class="transparent"> COSATU</h3>
+    <h3 class="darker"> PrintMedia</h3>
+    <h3 class="transparent">Education for All</h3>
+</div>
+        <div class="footer2">
+            <h1 class="footer2-header">
+            School-Managers Notebooks
+            </h1>
+
+            <p class="footer2-paragraph">
+                @2022, Registered with South African Higher and Tertiary Institution. <br> &copy; Terms and Conditions apply.
+            </p>
+        </div>
+    </footer>
+<script src="./src/contact.js"></script>
+<script src="./src/main.js" type="module"></script>
+</body>
+</html> 
