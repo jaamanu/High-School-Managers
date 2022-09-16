@@ -3,18 +3,18 @@ const menu = document.querySelectorAll('.menu');
 const logo = document.querySelector('.logo');
 const menuOne = document.querySelector('.menuItems');
 
-bar.addEventListener('click', function(){
-  bar.classList.toggle('active')
-  menuOne.classList.toggle('in-active')
-  logo.classList.toggle('in-active')
-})
+bar.addEventListener('click', () => {
+  bar.classList.toggle('active');
+  menuOne.classList.toggle('in-active');
+  logo.classList.toggle('in-active');
+});
 
 const spreadList = [...menu];
 spreadList.forEach((menuList) => {
   menuList.addEventListener('click', () => {
-    bar.classList.toggle('active')
-    menuOne.classList.toggle('in-active')
-    logo.classList.toggle('in-active')
+    bar.classList.toggle('active');
+    menuOne.classList.toggle('in-active');
+    logo.classList.toggle('in-active');
   });
 });
 

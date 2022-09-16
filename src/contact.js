@@ -1,6 +1,6 @@
-const personError = document.querySelector('.contact-person-error');
-const addressError = document.querySelector('.contact-address-error');
-const messageError = document.querySelector('.contact-message-error');
+const nameError = document.querySelector('.contact-person-error');
+const emailErr = document.querySelector('.contact-address-error');
+const textErr = document.querySelector('.contact-message-error');
 const submitErr = document.querySelector('.contact-submit-error');
 
 function nameFun() {
