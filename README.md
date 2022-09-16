@@ -29,10 +29,10 @@ Run tests
 Linters are already setup in the repo for error checks
 
 ### Setup
-copy the url to your local 
+copy the url to your local(https://github.com/jaamanu/schoolmanagers.git)
 
 ### Live Demo 
-[Live Demo]()
+[Live Demo](https://jaamanu.github.io/schoolmanagers/)
 
 ### Loom Video
 [Lomm Video Presentation](https://www.loom.com/share/7c53a5f3735642308f08a7cae5aa0849)
