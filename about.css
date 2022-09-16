@@ -1,0 +1,273 @@
+@import url(style.css);
+
+.aboutsection-main {
+  padding-top: 50px;
+}
+
+.about-title {
+  font-size: 30px;
+  font-family: 'lato', sans-serif;
+  text-transform: uppercase;
+  color: #ec5242;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.about-paragraph {
+  font-size: 12px;
+  width: 550px;
+  margin: auto;
+  background-color: rgb(244, 242, 242);
+  font-family: 'lato', sans-serif;
+  color: #313232;
+  padding: 20px 18px;
+  line-height: 18px;
+}
+
+.about-paragraph2 {
+  padding-top: 30px;
+  font-size: 13px;
+  font-family: 'lato', sans-serif;
+  color: #313232;
+  text-align: center;
+}
+
+.about-paragraph-email {
+  font-family: 'lato', sans-serif;
+  border-bottom: 1px solid #313232;
+  width: 200px;
+  color: #313232;
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.aboutsection1 {
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-right: 10%;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url('./images/card1.jpeg');
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 90px;
+}
+
+.about-info2-title {
+  color: #313232;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 24px 0 24px;
+  font-family: 'lato', sans-serif;
+}
+
+.about-info2-paragraph {
+  color: #313232;
+  width: 650px;
+  margin: 30px auto 30px auto;
+  font-family: 'lato', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 0 24px 0 24px;
+}
+
+.schoolmanagers {
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  padding: 12px 45px;
+  border: 2px #e0e3e3 solid;
+}
+
+.abtline1 {
+  margin: 30px 0;
+  background-color: #d3d3d3;
+  height: 2px;
+  border: none;
+}
+
+.about-info3 {
+  text-align: center;
+  font-family: 'lato', sans-serif;
+}
+
+.about-info3-title {
+  font-size: 24px;
+  color: #313232;
+}
+
+.about-info3-paragraph {
+  font-size: 14px;
+  color: #313232;
+  margin-top: 15px;
+}
+
+.about-info3-card1 {
+  height: 650px;
+  width: 450px;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url("./images/Screenshot\ 2022-09-14\ at\ 18.29.29.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.about-info3-card2 {
+  height: 650px;
+  width: 450px;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url("./images/Screenshot\ 2022-09-14\ at\ 18.35.29.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+  color: #e0e3e3;
+  font-weight: bolder;
+}
+
+.about-info3-card2:hover {
+  background-image: url("./images/Screenshot\ 2022-09-14\ at\ 18.35.29.png");
+  transition: all 0.5s ease-in-out;
+}
+
+.about-info3-card1:hover {
+  background-image: url("./images/Screenshot\ 2022-09-14\ at\ 18.35.58.png");
+  transition: all 0.5s ease-in-out;
+}
+
+.about-info3-card-info {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.about-info3-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+}
+
+.abtfooter2 {
+  background: #272a31;
+  color: #d3d3d3;
+  margin-top: 30px;
+}
+
+.abtfooter2-header {
+  padding-top: 30px;
+}
+
+.abtfooter2-paragraph {
+  display: flex;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.about-ft-sec {
+  display: none;
+}
+
+.hline1 {
+  display: none;
+}
+
+.form {
+  display: none;
+}
+
+.hghg {
+  height: 50px;
+}
+
+@media (max-width: 765px) {
+  .about-title {
+    font-size: 30px;
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    color: #ec5242;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .about-paragraph {
+    width: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    line-height: 15px;
+  }
+
+  .about-paragraph-email {
+    width: auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .about-info2-paragraph {
+    padding: 30px 12px 0 12px;
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .schoolmanagers {
+    text-align: center;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .about-info3 {
+    padding: 12px 30px;
+  }
+
+  .about-info3-card1 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-info3-card2 {
+    width: 100%;
+    margin: 15px auto auto auto;
+  }
+
+  .about-info3-cards {
+    margin-bottom: 20px;
+  }
+
+  .abtfooter1 {
+    display: none;
+  }
+
+  .about-ft-sec {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+
+  .abtfooter2 {
+    padding: 5px 10px;
+    background: #fff;
+  }
+
+  .abtfooter2-header {
+    font-size: 20px;
+    color: #313232;
+  }
+
+  .abtfooter2-paragraph {
+    font-size: 14px;
+    color: #313232;
+  }
+}
