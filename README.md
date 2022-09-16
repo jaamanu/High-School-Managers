@@ -34,6 +34,9 @@ copy the url to your local
 ### Live Demo 
 [Live Demo]()
 
+### Loom Video
+[Lomm Video Presentation](https://www.loom.com/share/7c53a5f3735642308f08a7cae5aa0849)
+
 ## JAMES ASIBEY MANU
 
 - GitHub: [https://github.com/jaamanu](https://github.com/jaamanu)
